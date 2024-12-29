@@ -4,7 +4,7 @@
       {{- range $page := .Pages }}
         <li>
           <time datetime="{{ $page.PublishDate }}">{{ $page.PublishDate.Format "2006-01-02" }}</time>
-          <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+          <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>{{- if $page.Draft }} ::Draft{{- end }}
         </li>
       {{- end }}
     </ol>
