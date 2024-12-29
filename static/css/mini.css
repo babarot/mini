@@ -166,6 +166,10 @@ pre code {
   top: -5rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 ul {
   margin-top:0.5em;
   margin-bottom:2rem;
