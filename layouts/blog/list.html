@@ -1,5 +1,5 @@
 {{- define "main" }}
-  {{- with .Site.GetPage "section" "blog" }}
+  {{- with .Site.GetPage "section" "post" }}
     <ol id="article-list">
       {{- range $page := .Pages }}
         <li>
