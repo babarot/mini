@@ -4,7 +4,7 @@
 
 /* Body, header, and footer */
 
-html, body, h1, h2, h3, h4, h5, div, p, blockquote {
+html, body, div, p, blockquote {
   padding: 0;
   margin: 0;
 }
@@ -187,6 +187,9 @@ ul, li {
 }
 
 .footnotes {
+  hr {
+    margin-top: 3rem;
+  }
   ol {
     padding-inline-start: 2rem;
     color: #999999;
