@@ -166,8 +166,13 @@ pre code {
   top: -5rem;
 }
 
-img {
-  max-width: 100%;
+figure {
+  img {
+    max-width: 100%;
+  }
+  figcaption > p {
+    color: #999999;
+  }
 }
 
 ul {
