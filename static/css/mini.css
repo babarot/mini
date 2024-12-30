@@ -139,6 +139,22 @@ ol {
   line-height: 3rem;
 }
 
+.content {
+  h1 {
+    font-size: 1.8rem;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+  }
+}
+
 /* Code blocks */
 
 code {
@@ -239,5 +255,9 @@ ul, li {
   code {
     background: rgba(13, 13, 28);
     color: rgb(233, 233, 233);
+  }
+
+  .content h1 {
+    border-bottom: 1px solid #808080;
   }
 }
