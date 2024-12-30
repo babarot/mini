@@ -204,6 +204,7 @@ figure, p {
     max-width: 100%;
   }
   figcaption > p {
+    font-size: 0.875rem;
     margin-top: 0;
     color: #999999;
   }
