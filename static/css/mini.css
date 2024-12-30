@@ -129,8 +129,8 @@ article header {
   margin-bottom: 5rem;
 }
 
-ol {
-  padding-inline-start: 0.5rem;
+#article-list {
+  padding: 0;
 }
 
 #article-list li {
