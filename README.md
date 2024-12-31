@@ -26,7 +26,7 @@ I'll write about this one day.
 
 ## Configuration
 
-Mini only looks for three keys in `hugo.yaml`'s `params`.
+### Footer
 
 - `github` - A link to your GitHub page.
 - `mastodon` - A link to your Mastodon profile.
@@ -40,6 +40,27 @@ params:
   mastodon: 'https://mastodon.social/@daneharrigan'
   footer: |-
     Thank you for reading an entry in my collection of blog posts.
+```
+
+### Override CSS classes with yours
+
+To override the CSS, just add your own CSS file with a link tag after all of those, linking to an appropriate file in `/static`.
+
+For example:
+
+```yaml
+params:
+  customCSS:
+  - "/css/overlay.css"
+```
+
+```
+themes/
+  mini/@submodule
+
+static/
+  css/
+    overlay.css
 ```
 
 ## Contributing
