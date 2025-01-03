@@ -4,6 +4,9 @@
     <h1 id="article-title">{{ .Title }}</h1>
     <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "2006-01-02" }}</time>
   </header>
+  {{- with .Page.Params.toc -}}
+    {{- $.TableOfContents -}}
+  {{- end -}}
   <div class="content">
   {{ .Content }}
   </div>
