@@ -213,6 +213,38 @@ ul, li {
   margin-bottom: 0.2rem;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:last-child {
+  border-width: 0;
+}
+
+tr {
+  border-color: #dcdcdc;
+  border-style: solid;
+  border-width: 0.1em 0;
+}
+
+th {
+  text-align: start;
+  border-color: #808080;
+  border-bottom-style: solid;
+  border-bottom-width: 0.12rem;
+  padding: 1px 0px 8px 8px;
+}
+
+th:first-child {
+  padding: 1px 8px 8px 0px;
+}
+
+td {
+  vertical-align: baseline;
+  padding: 8px 8px 8px 0px;
+}
+
 .table-container {
   overflow-x: scroll;
 }
@@ -280,5 +312,13 @@ ul, li {
     background-color: #4d4d4d;
     border-left: 4px solid #f0f0f0;
     color: #f0f0f0;
+  }
+
+  tr {
+    border-color: #4d4d4d;
+  }
+
+  th {
+    border-color: #808080;
   }
 }
