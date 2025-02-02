@@ -252,6 +252,8 @@ td {
 .footnotes {
   hr {
     margin-top: 3rem;
+    border: none;
+    border-top: 1px #808080 solid
   }
   ol {
     padding-inline-start: 2rem;
