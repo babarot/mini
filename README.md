@@ -1,9 +1,8 @@
 # mini 
 
-Version: 0.0.2
-Demo: [daneharrigan.com](https://daneharrigan.com)
+Demo: [tellme.tokyo](https://tellme.tokyo)
 
-A minimal Hugo blog theme that is responsive with a touch of purple. 
+A minimal Hugo blog theme that is responsive with a touch of purple.
 
 ## Overview
 
@@ -29,15 +28,14 @@ I'll write about this one day.
 ### Footer
 
 - `github` - A link to your GitHub page.
-- `mastodon` - A link to your Mastodon profile.
+- `x` - A link to your X (_formerly Twitter_) account.
 - `footer` - Free form text that will appear in the footer of every blog post.
 
 For example:
 
 ```yaml
 params:
-  github: 'https://github.com/dane'
-  mastodon: 'https://mastodon.social/@daneharrigan'
+  github: 'https://github.com/babarot'
   footer: |-
     Thank you for reading an entry in my collection of blog posts.
 ```
@@ -62,9 +60,3 @@ static/
   css/
     overlay.css
 ```
-
-## Contributing
-
-I'm happy to discuss new features and receive pull requests. Mini doesn't
-support Twitter, Instagram, Gitlab, etc. only because I don't use them, but it
-could with your help.

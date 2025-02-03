@@ -1,11 +1,11 @@
 ---
 name: "mini"
 license: "BSD 3-Clause"
-licenselink: "https://github.com/dane/mini/blob/main/LICENSE"
-description: "A minimal blog"
-homepage: "https://github.com/dane/mini"
+licenselink: "https://github.com/babarot/mini/blob/main/LICENSE"
+description: "A minimal blog, forked from dane/mini"
+homepage: "https://github.com/babarot/mini"
 min_version: "0.112.3"
 
 author:
-  name: "Dane Harrigan"
-  homepage: "https://daneharrigan.com"
+  name: "babarot"
+  homepage: "https://tellme.tokyo"
