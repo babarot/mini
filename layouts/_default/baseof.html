@@ -19,8 +19,11 @@
   </body>
 </html>
 {{ if .Store.Get "hasMermaid" }}
-<script type="module">
+<script async type="module">
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-	mermaid.initialize({ startOnLoad: true });
+  // https://mermaid.js.org/config/theming.html
+  // base, forest, default, dark, neutral
+  var theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'neutral';
+  mermaid.initialize({ startOnLoad: true, theme: theme, });
 </script>
 {{ end }}
