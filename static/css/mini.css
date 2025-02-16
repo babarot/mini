@@ -156,6 +156,7 @@ article header {
 /* Code blocks */
 
 code {
+  white-space: pre;
   background: rgb(248, 248, 251);
   border-radius: 0.25rem;
   padding: 0.1rem 0.25rem;
@@ -165,9 +166,16 @@ code {
 
 pre code {
   display: block;
-  padding: 0.5rem 1rem;
-  line-height: 1rem;
-  overflow: auto;
+  white-space: pre; /* コードブロック内での改行を保持 */
+  word-wrap: normal; /* 通常の単語折り返しを無効化 */
+  overflow-x: auto; /* 必要に応じて横スクロール */
+  line-height: 1.5;
+  padding: 0.5rem 1rem; /* 上下左右に余白を追加 */
+  margin: 0; /* preタグとの重複を避けるため */
+  font-family: 'Hack', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 0.9rem;
+  tab-size: 4; /* タブ幅の統一 */
+  -moz-tab-size: 4; /* Firefox対応 */
 }
 
 blockquote {
