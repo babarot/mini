@@ -160,22 +160,22 @@ code {
   background: rgb(248, 248, 251);
   border-radius: 0.25rem;
   padding: 0.1rem 0.25rem;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   color: rgb(34, 30, 46);
 }
 
 pre code {
   display: block;
-  white-space: pre; /* コードブロック内での改行を保持 */
-  word-wrap: normal; /* 通常の単語折り返しを無効化 */
-  overflow-x: auto; /* 必要に応じて横スクロール */
+  white-space: pre; /* Preserve line breaks within code block */
+  word-wrap: normal; /* Disable default word wrapping */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
   line-height: 1.5;
-  padding: 0.5rem 1rem; /* 上下左右に余白を追加 */
-  margin: 0; /* preタグとの重複を避けるため */
+  padding: 0.5rem 1rem; /* Add padding on all sides */
+  margin: 0; /* Avoid duplicate margin with pre tag */
   font-family: 'Hack', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 0.9rem;
-  tab-size: 4; /* タブ幅の統一 */
-  -moz-tab-size: 4; /* Firefox対応 */
+  tab-size: 4; /* Standardize tab width */
+  -moz-tab-size: 4; /* Firefox compatibility */
 }
 
 blockquote {
