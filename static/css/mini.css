@@ -121,6 +121,8 @@ article h2 {
   margin: 2rem auto;
   padding: 0 2rem;
   max-width: 43rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 article header {
